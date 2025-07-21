@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import { ProgressBar1 } from "./components/ProgressBar1";
+import { HackerNewsJobBoard } from "./components/HackerNewsJobBoard";
 function App() {
   const [bars, setBars] = useState(0);
   return (
     <>
-      <div className="wrapper">
+      {/* <div className="wrapper">
         <div>
           <button
             onClick={() => {
@@ -22,7 +23,8 @@ function App() {
               <ProgressBar1 key={index} />
             ))}
         </div>
-      </div>
+      </div> */}
+      <HackerNewsJobBoard />
     </>
   );
 }
