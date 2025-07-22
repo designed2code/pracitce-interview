@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150
 
+// Refer solution link https://www.youtube.com/watch?v=S797iEgjluQ
 /**
  * @param {string} haystack
  * @param {string} needle
