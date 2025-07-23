@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/valid-palindrome/description/?envType=study-plan-v2&envId=top-interview-150
+// https://www.geeksforgeeks.org/problems/check-for-subsequence4930/1
 
 /**
  * @param {string} s
