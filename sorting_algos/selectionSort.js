@@ -11,3 +11,5 @@ function selectionSort(arr) {
   }
   return arr;
 }
+
+console.log(selectionSort([2, 9, 5, 1, 3]));
