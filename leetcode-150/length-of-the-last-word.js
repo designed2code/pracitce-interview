@@ -35,3 +35,5 @@ var lengthOfLastWord = function (s) {
   }
   return len;
 };
+
+console.log(lengthOfLastWord("   fly me   to   the moon  "));
