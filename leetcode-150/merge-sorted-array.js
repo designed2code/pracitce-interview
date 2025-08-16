@@ -17,7 +17,13 @@ var merge = function (nums1, m, nums2, n) {
         ? nums1[lastIndexNums1--]
         : nums2[lastIndexNums2--];
   }
+  console.log(nums1);
 };
 
 // soln :- https://algo.monster/liteproblems/88
 // also pasted is an img of dry run named merge-sorted-array
+merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
+/*
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+*/
